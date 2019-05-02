@@ -1,0 +1,21 @@
+[Desktop Entry]
+Name=Media Player Cover
+Comment=Media Player Controls Cover
+Icon=applications-multimedia
+
+Type=Service
+X-KDE-ServiceTypes=Plasma/Applet
+X-KDE-PluginInfo-Author=J Novo
+X-KDE-PluginInfo-Category=Multimedia
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-Email=
+X-KDE-PluginInfo-EnabledByDefault=false
+X-KDE-PluginInfo-License=GPL-2.0+
+X-KDE-PluginInfo-Name=org.kde.plasma.mediacontroller-cover
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-Website=
+X-Plasma-StandAloneApp=true
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/main.qml
+X-Plasma-Provides=org.kde.plasma.multimediacontrols
+X-Plasma-DBusActivationService=org.mpris.MediaPlayer2.*

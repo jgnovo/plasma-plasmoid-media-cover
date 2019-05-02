@@ -1,0 +1,31 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "",
+                "Name": "J Novo"
+            }
+        ],
+        "Category": "Multimedia",
+        "Dependencies": [
+        ],
+        "Description": "Media Player Controls Cover",
+        "EnabledByDefault": false,
+        "Icon": "applications-multimedia",
+        "Id": "org.kde.plasma.mediacontroller-cover",
+        "License": "GPL-2.0+",
+        "Name": "Media Player Cover",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "1.0",
+        "Website": ""
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-DBusActivationService": "org.mpris.MediaPlayer2.*",
+    "X-Plasma-MainScript": "ui/main.qml",
+    "X-Plasma-Provides": [
+        "org.kde.plasma.multimediacontrols"
+    ],
+    "X-Plasma-StandAloneApp": true
+}
